@@ -56,6 +56,7 @@ MAX_TRANSIT_DIST = 1.5 # kilometers
 
 # Transit stations you want to check against.  Every coordinate here will be checked against each listing,
 # and the closest station name will be added to the result and posted into Slack.
+# Only includes Zone 1 and Zone 2 LRT stations in Vancouver
 TRANSIT_STATIONS = {
     "Yaletown | Z1": [49.27455,-123.1219],
     "Waterfront | Z1": [49.285833,-123.111667],
